@@ -1,0 +1,8 @@
+[package]
+name = "grassfeet-map-sphere"
+version = "0.1.0"
+authors = ["Xiang Fan<sfanxiang@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+icosahedron = "0.1.1"
