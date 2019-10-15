@@ -39,7 +39,7 @@ fn write(
 }
 
 fn main() {
-    let mut poly = Polyhedron::new_isocahedron(92.333333333, 8);
+    let mut poly = Polyhedron::new_isocahedron(92.333333333, 6);
     poly.compute_triangle_normals();
 
     println!("Triangles: {}", poly.cells.len());
